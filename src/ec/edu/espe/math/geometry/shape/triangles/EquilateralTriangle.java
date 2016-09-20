@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.math.geometry.circunferences.triangles;
+package ec.edu.espe.math.geometry.shape.triangles;
 
 /**
  *
@@ -35,7 +35,7 @@ public class EquilateralTriangle extends Triangle{
     }
 
     @Override
-    public Float perimetre() {
+    public Float perimeter() {
         return this.sideGeneral*3;
     }
 

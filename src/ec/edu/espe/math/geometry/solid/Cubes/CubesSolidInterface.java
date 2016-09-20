@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package math.geometry;
+package ec.edu.espe.math.geometry.solid.Cubes;
+
+import ec.edu.espe.math.geometry.solid.SolidInterface;
 
 /**
  *
  * @author Labs-DECC
  */
-public abstract class Shape {
+public interface CubesSolidInterface extends SolidInterface {
     
-    public abstract Float area();
-    public abstract Float perimetre(); 
 }

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Quadrilaterals;
+package ec.edu.espe.math.geometry.shape.quadrilaterals;
 
 
 /**
@@ -55,7 +55,7 @@ public class Rombus extends Quadrialaterals {
     }
 
     @Override
-    public Float perimetre() {
+    public Float perimeter() {
         return (float)(Math.pow(SmallDiagonal/2,2) + Math.pow(this.BigDiagonal/2,2)); // Terminar Bien la formula
     }
     

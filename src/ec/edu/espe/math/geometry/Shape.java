@@ -3,19 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Main;
+package ec.edu.espe.math.geometry;
 
 /**
  *
  * @author Labs-DECC
  */
-public class MathGeometry {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+public interface Shape {
     
+    public abstract Float area();
+    public abstract Float perimeter(); 
 }

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Quadrilaterals;
+package ec.edu.espe.math.geometry.shape.quadrilaterals;
 
 /**
  *Corregir los herrores
@@ -41,7 +41,7 @@ public class Trapezoid extends Quadrialaterals {
     }
 
     @Override
-    public Float perimetre() {
+    public Float perimeter() {
         return  2*(this.sideSmall+this.side);
     }
     

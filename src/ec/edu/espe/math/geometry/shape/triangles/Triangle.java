@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.math.geometry.circunferences.triangles;
+package ec.edu.espe.math.geometry.shape.triangles;
 import ec.edu.espe.math.geometry.Shape;
 /**
  *
  * @author Labs-DECC
  */
-public abstract class  Triangle extends Shape
+public abstract class  Triangle implements Shape
 {
  
   protected float sideOne;

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Quadrilaterals;
+package ec.edu.espe.math.geometry.shape.quadrilaterals;
 
 /**
  *
@@ -21,7 +21,7 @@ public class Square extends Quadrialaterals {
     }
 
     @Override
-    public Float perimetre() {
+    public Float perimeter() {
         return this.side*4;
     }
 

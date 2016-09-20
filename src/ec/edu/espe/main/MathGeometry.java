@@ -5,9 +5,9 @@
  */
 package ec.edu.espe.main;
 
-import ec.edu.espe.math.geometry.circunferences.quadrilaterals.Square;
-import ec.edu.espe.math.geometry.circunferences.quadrilaterals.Rombus;
-import ec.edu.espe.math.geometry.circunferences.quadrilaterals.Rectangle;
+import ec.edu.espe.math.geometry.shape.quadrilaterals.Square;
+import ec.edu.espe.math.geometry.shape.quadrilaterals.Rombus;
+import ec.edu.espe.math.geometry.shape.quadrilaterals.Rectangle;
 import ec.edu.espe.util.GeometricsConstans;
 import ec.edu.espe.util.PrinterUtil;
 import ec.edu.espe.math.geometry.Shape;
@@ -32,7 +32,7 @@ public class MathGeometry {
  
         for(int i=0;i<arreglo.length;i++)
         {
-            PrinterUtil.print(arreglo[i].getClass().getSimpleName(),GeometricsConstans.PERIMETER , arreglo[i].perimetre().toString());
+            PrinterUtil.print(arreglo[i].getClass().getSimpleName(),GeometricsConstans.PERIMETER , arreglo[i].perimeter().toString());
             PrinterUtil.print(arreglo[i].getClass().getSimpleName(),GeometricsConstans.AREA , arreglo[i].area().toString());
         }
         

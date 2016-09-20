@@ -3,19 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Quadrilaterals;
-import math.geometry.Shape;
+package ec.edu.espe.math.geometry.solid.CircumferenceSolid;
+
+import ec.edu.espe.math.geometry.solid.SolidInterface;
+
 /**
  *
  * @author Labs-DECC
  */
-public abstract class Quadrialaterals extends Shape
-{
-   
-       Float side;
-
-    public Quadrialaterals(Float side) {
-        this.side = side;
-    }
+public interface CircumferenceSolidInterface extends SolidInterface{
     
 }

@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.math.geometry.circunferences.triangles;
+package ec.edu.espe.math.geometry.shape.triangles;
 
 /**
  *
@@ -18,13 +18,13 @@ public class ScaleneTriangle  extends Triangle{
           
     @Override
     public Float area() {
-       float s = this.perimetre()/2;
+       float s = this.perimeter()/2;
        
        return (float)(Math.sqrt((s-this.sideOne)+(s-this.sideTwo)+(s-this.sideThree)));
     }
 
     @Override
-    public Float perimetre() {
+    public Float perimeter() {
        return this.sideOne+this.sideTwo+this.sideThree;
     }
     

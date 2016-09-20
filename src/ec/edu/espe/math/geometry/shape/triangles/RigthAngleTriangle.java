@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package ec.edu.espe.math.geometry.circunferences.triangles;
+package ec.edu.espe.math.geometry.shape.triangles;
 
 import java.util.Objects;
 
@@ -73,7 +73,7 @@ public class RigthAngleTriangle extends Triangle {
     }
 
     @Override
-    public Float perimetre() {
+    public Float perimeter() {
         return(float)(this.base+this.heigth+ Math.sqrt(Math.pow(this.base, 2)+Math.pow(this.heigth, 2)));
     }
     
